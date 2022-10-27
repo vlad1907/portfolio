@@ -1,0 +1,45 @@
+@import '../../styles/sass/variables';
+@import '../../styles/sass/mixins';
+
+.title {
+    @include block(1.33em, 1.33em, 0, 0);
+    position: relative;
+    h1 {
+        @include text(30px, 1.7, $headingColor);
+        letter-spacing: 1px;
+        font-weight: 500;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+    &::before {
+        content: '';
+        width: 60px;
+        height: 1px;
+        background: $primaryColor;
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    @media screen and (max-width: 649px) {
+        h1 {
+            @include text(25px, 1.2, $headingColor);
+            font-weight: 500;
+        }
+    }
+    @media screen and (max-width: 529px) {
+        h1 {
+            @include text(20px, 1.2, $headingColor);
+            font-weight: 500;
+        }
+    }
+}
+@media screen and (max-width: 529px) {
+    .title {
+        text-align: center;
+    }
+}
+
+
+

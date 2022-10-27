@@ -1,0 +1,14 @@
+@import '../common/styles/sass/variables';
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: $containerColor;
+    opacity: 0.9;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+}

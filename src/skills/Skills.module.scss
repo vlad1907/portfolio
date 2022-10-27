@@ -1,0 +1,89 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+.skillsBlock {
+  min-height: 100vh;
+  background-color: $secondBgColor;
+
+  .skillsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .skillsWrapper {
+      width: 100%;
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .paragraph {
+        width: 65%;
+        @include text(22px, 1.5, $headingColor);
+        padding: 40px;
+      }
+
+      img {
+        background-color: rgba(23, 23, 23, 0.1);
+        border-radius: 100%;
+        width: 400px;
+        height: 400px;
+      }
+
+      @media screen and (max-width: 1249px) {
+        .paragraph {
+          @include text(18px, 1.5, $headingColor);
+          padding: 35px;
+        }
+        img {
+          width: 250px;
+          height: 250px;
+          margin-right: 20px;
+        }
+      }
+
+      @media screen and (max-width: 964px) {
+        .paragraph {
+          width: 95%;
+          @include text(15px, 1.5, $headingColor);
+          padding: 30px;
+          text-align: center;
+        }
+        img {
+          width: 250px;
+          height: 250px;
+          margin-left: 20px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 964px) {
+      .skillsWrapper {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+
+    .skills {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    @media screen and (max-width: 634px) {
+      .skills {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+
+
+

@@ -1,0 +1,86 @@
+@import '../../common/styles/sass/mixins';
+@import '../../common/styles/sass/variables';
+
+.skill {
+  @include blockContainer(130px);
+  margin: 10px auto;
+  align-items: center;
+  text-align: center;
+  padding: 12px;
+  transition: ease-in-out transform .5s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    transition: ease-in-out transform .5s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  @media screen and (max-width: 693px) {
+    .icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  h3 {
+    color: $primaryColor;
+    transition: ease-in-out transform .5s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .react {
+    @include skillsImage('../../assets/skills-image/icon-react.jpeg');
+  }
+
+  .html {
+    @include skillsImage('../../assets/skills-image/icon-html.png');
+  }
+
+  .javaScript {
+    @include skillsImage('../../assets/skills-image/icon-js.png');
+  }
+
+  .github {
+    @include skillsImage('../../assets/skills-image/icon-github.png');
+  }
+
+  .sass {
+    @include skillsImage('../../assets/skills-image/icon-sass.svg');
+  }
+
+  .redux {
+    @include skillsImage('../../assets/skills-image/icon-redux.png');
+  }
+
+  .material {
+    @include skillsImage('../../assets/skills-image/icon-material.png');
+  }
+
+  .typescript {
+    @include skillsImage('../../assets/skills-image/icon-typescript.png');
+  }
+
+  .material {
+    @include skillsImage('../../assets/skills-image/icon-material.png');
+  }
+
+  @media screen and (max-width: 693px) {
+    .skill {
+      @include blockContainer(60px);
+      margin: 10px auto;
+      align-items: center;
+      text-align: center;
+      padding: 5px;
+    }
+  }
+}
