@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.785645f3.css",
+    "main.js": "/static/js/main.83a20b05.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/background.png": "/static/media/background.5dd2e279182791db1040.png",
+    "static/media/learning-app.png": "/static/media/learning-app.e45348cd833afc92ca10.png",
+    "static/media/todolist.png": "/static/media/todolist.cc08a7d74b5ebefd892f.png",
+    "static/media/photo.png": "/static/media/photo.4fc0281a66f00477aaf9.png",
+    "static/media/cv.pdf": "/static/media/cv.8607e94cd8be645b0ff7.pdf",
+    "static/media/social-network.png": "/static/media/social-network.812fd9a35bee9d33685f.png",
+    "static/media/icon-github.png": "/static/media/icon-github.1c95b85d86a7c25b6f3c.png",
+    "static/media/icon-react.jpeg": "/static/media/icon-react.5595ab6dc6aeb295bb69.jpeg",
+    "static/media/icon-redux.png": "/static/media/icon-redux.cc5d0df4a10357f98d93.png",
+    "static/media/icon-html.png": "/static/media/icon-html.411437b33e3501efe4e0.png",
+    "static/media/icon-sass.svg": "/static/media/icon-sass.ffa3daeb948c4241f352.svg",
+    "index.html": "/index.html",
+    "main.785645f3.css.map": "/static/css/main.785645f3.css.map",
+    "main.83a20b05.js.map": "/static/js/main.83a20b05.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.785645f3.css",
+    "static/js/main.83a20b05.js"
+  ]
+}
