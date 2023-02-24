@@ -31,6 +31,10 @@
     @include skillsImage('../../assets/image/learning-app.png');
   }
 
+  .house {
+    @include skillsImage('../../assets/image/house-vop.png');
+  }
+
   .overlay {
       height: 100%;
       width: 100%;

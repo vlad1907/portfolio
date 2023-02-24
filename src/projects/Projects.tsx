@@ -20,24 +20,31 @@ const Projects = () => {
                             title={'Todolist'}
                             description={'Stack: TypeScript, React, Redux, Redux Toolkit, Redux-Thunk, ' +
                                 'React-Router-dom, Axios, Formik, TDD, Material UI, Storybook.'}
-                            link={''}
-                            codeLink={''}
+                            link={'https://vlad1907.github.io/todolist'}
+                            codeLink={'https://github.com/vlad1907/todolist'}
                         />
-                        <Project
+                     {/*   <Project
                             img={"cards"}
                             title={'Learning App'}
                             description={'Stack: TypeScript, React, Redux, Redux-Thunk, ' +
                                 'React-Router-dom, Axios, Formik, Material UI. Team development.'}
                             link={''}
                             codeLink={''}
-                        />
+                        />*/}
                         <Project
                             img={"social"}
                             title={'Social Network'}
                             description={'Stack: TypeScript, React, Redux, Redux-Thunk, ' +
                                 'React-Router-dom, Axios, Formik, Reselect, TDD.'}
-                            link={''}
-                            codeLink={''}
+                            link={'https://vlad1907.github.io/social-network-ts'}
+                            codeLink={'https://github.com/vlad1907/social-network-ts'}
+                        />
+                        <Project
+                            img={"house"}
+                            title={'Landing page (responsive)'}
+                            description={'Stack: JS, CSS, HTML.'}
+                            link={'https://vlad1907.github.io/houseVOP/'}
+                            codeLink={'https://github.com/vlad1907/houseVOP'}
                         />
                     </Fade>
                 </div>
