@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.72c36665.css",
-    "main.js": "/portfolio/static/js/main.86a1d208.js",
+    "main.js": "/portfolio/static/js/main.4759e567.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/background.png": "/portfolio/static/media/background.5dd2e279182791db1040.png",
     "static/media/house-vop.png": "/portfolio/static/media/house-vop.db292a4fb313cf45483a.png",
     "static/media/learning-app.png": "/portfolio/static/media/learning-app.e45348cd833afc92ca10.png",
     "static/media/photo.png": "/portfolio/static/media/photo.4fc0281a66f00477aaf9.png",
-    "static/media/cv.pdf": "/portfolio/static/media/cv.8607e94cd8be645b0ff7.pdf",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.e94df27fa7f97ef4db24.pdf",
     "static/media/icon-github.png": "/portfolio/static/media/icon-github.1c95b85d86a7c25b6f3c.png",
     "static/media/social-network.png": "/portfolio/static/media/social-network.99c53b4832e7a427c8c9.png",
     "static/media/todolist.png": "/portfolio/static/media/todolist.4a88cee9fb939645f9c9.png",
@@ -17,11 +17,11 @@
     "static/media/icon-sass.svg": "/portfolio/static/media/icon-sass.ffa3daeb948c4241f352.svg",
     "index.html": "/portfolio/index.html",
     "main.72c36665.css.map": "/portfolio/static/css/main.72c36665.css.map",
-    "main.86a1d208.js.map": "/portfolio/static/js/main.86a1d208.js.map",
+    "main.4759e567.js.map": "/portfolio/static/js/main.4759e567.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72c36665.css",
-    "static/js/main.86a1d208.js"
+    "static/js/main.4759e567.js"
   ]
 }
