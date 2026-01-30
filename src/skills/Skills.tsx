@@ -39,7 +39,6 @@ const Skills = () => {
                                 solutions.
                             </p>
                         </div>
-                        <img src={photo} alt={'avatar'}/>
                     </div>
                 </Fade>
                 <Fade right>
